@@ -11,20 +11,20 @@
 <!-- partial:index.partial.html -->
 <main class="quiz__container">
     <div class="quiz__body">
-        <header class="header">
-            <div id="timer" class="header__block">
+        <header class="quiz__header">
+            <div id="timer" class="quiz__header--block">
                 Time:
                 <strong>60</strong>
             </div>
-            <div id="score" class="header__block">
+            <div id="score" class="quiz__header--block">
                 Score:
                 <strong>0</strong>
             </div>
-            <div id="hiScore" class="header__block">
+            <div id="hiScore" class="quiz__header--block">
                 High Score:
                 <strong>0</strong>
             </div>
-            <h1 class="header__title">
+            <h1 class="quiz__header--title">
                 Heroes Quiz!
             </h1>
         </header>
@@ -41,6 +41,50 @@
         </div>
     </div>
 </main>
+
+
+
+<!--
+The followings are standard templates for header and footer positioned here because the main activity is above
+-->
+<!-- Header -->
+<header class="header">
+    <nav class="navigation-menu">
+        <span><a href="https://codepen.io/riccardo-andreatta" target="_blank">CodePen</a></span>
+        <span><a href="https://www.linkedin.com/in/riccardoandreatta/?locale=en_US" target="_blank">LinkedIn</a></span>
+        <span><a href="https://github.com/ferie" target="_blank">GitHub</a></span>
+    </nav>
+</header>
+
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer__container">
+        <div class="socials">
+            <ul>
+                <li><a href="https://codepen.io/riccardo-andreatta" target="_blank">CodePen</a></li>
+                <li><a href="https://codepen.io/Ferie" target="_blank">CodePen 2nd Account</a></li>
+                <li><a href="https://www.linkedin.com/in/riccardoandreatta/?locale=en_US" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/ferie" target="_blank">GitHub</a></li>
+                <li><a href="https://medium.com/@ferie" target="_blank">Medium</a></li>
+            </ul>
+        </div>
+
+        <div class="socials">
+            <ul>
+                <li><a href="https://www.facebook.com/andreattariccardo" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/andreattariccardo/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.youtube.com/channel/UC-bF-WUlX2Oa_WtQLMx2REg?view_as=subscriber" target="_blank">YouTube</a></li>
+                <li><a href="https://twitter.com/Ferie80" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="copies">
+        Feel free to fork this CodePen and improve it by youself.
+    </div>
+</footer>
 <!-- partial -->
   <script  src="./script.js"></script>
 
