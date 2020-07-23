@@ -24,7 +24,7 @@ If you download (or clone) the repository, you can play this game just opening t
 ### Play locally
 
 If you want to use it locally and fetch the questions in the `data` folder (you may want to improve them), do the following:
-1. change the path in the `script.js` to get the JSON file in the data folder `const url = '../data/heroes-quiz-questions.json';`
+1. change the path in `dist/script.js` to get the JSON file in the `data` folder `const e = '../data/heroes-quiz-questions.json';`
 2. start a local server
 3. host the `index.html` file on the local server (so it will fetch the path for the JSON file correctly avoiding CORS errors)
 
