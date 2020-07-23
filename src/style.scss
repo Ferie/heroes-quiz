@@ -2,6 +2,7 @@
 
 body {
     background-color: #ded;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 .quiz {
@@ -60,7 +61,7 @@ body {
 
     &__question {
         font-size: 32px;
-        colour: #ccc;
+        color: lightseagreen;
         margin-bottom: 16px;
         text-align: center;
     }
